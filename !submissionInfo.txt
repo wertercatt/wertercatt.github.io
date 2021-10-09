@@ -1,0 +1,68 @@
+Common Disc Info:
+	Title: Pokémon Champion Island
+	Foreign Title (Non-latin): (OPTIONAL)
+	Disc Number / Letter: 1/1
+	Disc Title: (OPTIONAL)
+	System: DVD-Video
+	Media Type: DVD-ROM-5
+	Category: Games
+	Region: USA
+	Languages: American English
+	Disc Serial: ISBN 0-9788947-1-5
+
+	Ringcode Information:
+		Data Side Mastering Code (laser branded/etched): + + [A02] GF30302	DPK01-R1 SNAP TV
+		Data Side Mastering SID Code: IFPI LB48
+		Data Side Toolstamp or Mastering Code (engraved/stamped): 
+		Data Side Mould SID Code: IFPI 1006
+		Data Side Additional Mould: (REQUIRED, IF EXISTS)
+		Label Side Mould SID Code: (REQUIRED, IF EXISTS)
+		Label Side Additional Mould: 
+	Barcode: 881381000502
+	Comments: (OPTIONAL)
+	Contents: (OPTIONAL)
+
+Version and Editions:
+	Version: Original 2007 Release
+	Edition/Release: Standard Edition
+
+Extras:
+	Primary Volume Descriptor (PVD):
+
+0320 : 20 20 20 20 20 20 20 20  20 20 20 20 20 32 30 30                200
+0330 : 37 30 36 32 33 30 30 32  33 35 35 30 30 30 30 30   7062300235500000
+0340 : 30 30 30 30 30 30 30 30  30 30 30 30 30 30 30 30   0000000000000000
+0350 : 30 30 30 30 30 30 30 30  30 30 30 30 30 30 30 30   0000000000000000
+0360 : 30 30 30 30 30 30 30 30  30 30 30 30 30 30 30 30   0000000000000000
+0370 : 30 01 00 00 00 00 00 00  00 00 00 00 00 00 00 00   0...............
+
+Copy Protection:
+	Copy Protection:
+
+Region: 1 2 3 4 5 6 8
+Copyright Protection System Type: CSS/CPPM
+VTS_01_1.VOB;1 Title Key: C6 0C 71 15 3E
+VTS_02_1.VOB;1 Title Key: DC 01 26 48 4C
+VTS_03_1.VOB;1 Title Key: D9 26 8D 3E 95
+VTS_04_1.VOB;1 Title Key: D0 62 31 9C 5F
+VTS_05_1.VOB;1 Title Key: ED 31 BC 14 13
+VTS_06_1.VOB;1 Title Key: C6 87 D0 60 BE
+VTS_07_1.VOB;1 Title Key: EE 27 CE 3A 61
+VTS_08_1.VOB;1 Title Key: C2 21 10 AD 94
+VTS_09_1.VOB;1 Title Key: EE 73 4F E6 9E
+VTS_10_1.VOB;1 Title Key: ED CA E1 AA A2
+VTS_11_1.VOB;1 Title Key: EB C0 14 9C 22
+VTS_12_1.VOB;1 Title Key: C0 CE 8A EE 00
+VTS_13_1.VOB;1 Title Key: E9 1B 46 98 54
+VTS_14_1.VOB;1 Title Key: C8 44 2D 10 97
+VTS_15_1.VOB;1 Title Key: C2 AE 5E BD 08
+VTS_16_1.VOB;1 Title Key: E5 CE 3D 47 0D
+VTS_17_1.VOB;1 Title Key: CE 1D 01 8D F1
+VTS_18_1.VOB;1 Title Key: E3 24 78 E1 67
+Decrypted Disc Key: 2C F7 2D 9A D7
+
+Size & Checksum:
+	Size: 4300013568
+	CRC32: 22652b9a
+	MD5: 0b8e13b2118e1f5ff94f0184c17dbea3
+	SHA1: 61a536607d79d24eed2a02d3a98e089da9abe2da

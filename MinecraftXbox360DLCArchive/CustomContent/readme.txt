@@ -1,0 +1,2 @@
+These are custom DLC files made for Xbox 360 Edition. They were found and preserved when I was sorting through online pirate copies of the game. If you created something here and would like credit, please get in touch. 
+- wertercatt, wertercatt@wertercatt.com
