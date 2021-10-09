@@ -1,0 +1,40 @@
+﻿mse_version: 2.1.2
+card:
+	has_styling: false
+	notes: 
+	time_created: 2021-10-09 00:59:25
+	time_modified: 2021-10-09 01:16:31
+	card_type: Pokemon
+	card_color_1: Fire
+	texture_type_1: Nintendo
+	stage_levelup: Level Up
+	stage_baby: Basic
+	art_options: Standard Art
+	text_options_1: Use Set Copyright, Default Pokemon Power Color
+	general_options_04: Stadium and Supporters are a Subclass of Trainers
+	card_image: 
+	card_popout: 
+	background_pic_1: 
+	background_pic_2: 
+	energy_orb_pic_1: 
+	energy_orb_pic_2: 
+	evolution_pic: 
+	gym_leader_pic: 
+	team_watermark: 
+	team_logo: 
+	place: 8th
+	card_name: Katie
+	hp: HP100
+	rule_text_1: Pokémon Power: <b><color:rgb(89,46,132)>Doomed Timeline </b></color>Discard all energies attached to Katie. Ignore the last action taken. Activate at any time.
+	cost_classic_2: R
+	damage_2: 40
+	rule_text_2: Laser SMG Fire
+	weakness: L+20
+	resistance: F-20
+	retreat_cost: CC
+	pokedex_text_1: Witch of Time.
+	pokedex_text_2: dfasdfasdffadsf
+	ability_text_2: 
+	flavor_text: 
+	title_text_2: X
+	evolution_entry: Katie

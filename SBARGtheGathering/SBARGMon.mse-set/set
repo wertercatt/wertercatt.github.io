@@ -1,0 +1,16 @@
+﻿mse_version: 2.0.2
+game: pokemon
+game_version: 2018-07-22
+stylesheet: z-classic
+stylesheet_version: 2018-07-22
+set_info:
+	title: SBARGMon: Crashed Dungeons
+	symbol: symbol1.mse-symbol
+	symbol_image: 
+styling:
+	pokemon-w-dpp:
+		General_Choices: 
+include_file: card katie
+version_control:
+	type: none
+apprentice_code: 
