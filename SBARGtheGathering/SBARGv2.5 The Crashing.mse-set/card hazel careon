@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2021-09-09 16:58:06
-	time_modified: 2021-10-09 00:34:50
+	time_modified: 2021-10-09 00:52:29
 	extra_data:
 		magic-m15-future:
 			future_node: creature
@@ -16,10 +16,10 @@ card:
 	image: image1
 	super_type: <word-list-type>Legendary Creature</word-list-type>
 	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Player</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: special
+	rarity: mythic rare
 	rule_text:
 		When Hazel <error-spelling:en_US:/magic.mse-game/magic-words>Careon</error-spelling:en_US:/magic.mse-game/magic-words> enters the battlefield, all Cats you control get a +1/+1 or Loyalty Counter.
-		<sym>TG</sym>: Transform Hazel <error-spelling:en_US:/magic.mse-game/magic-words>Careon</error-spelling:en_US:/magic.mse-game/magic-words>
+		<sym>TGGG</sym>: Transform Hazel <error-spelling:en_US:/magic.mse-game/magic-words>Careon</error-spelling:en_US:/magic.mse-game/magic-words>
 		<kw-A><nospellcheck>Partner</nospellcheck><atom-reminder-expert> <i-auto>(You can have two commanders if both have partner.)</i-auto></atom-reminder-expert></kw-A>
 	flavor_text: <i-flavor></i-flavor>
 	power: 6
