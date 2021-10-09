@@ -1,5 +1,6 @@
 body {
 	background-color: black;
 	color: green;
-	font-family: "Lucida Typewriter", monospace;
+	font-family: "Fixedsys Excelsior", "Lucida Typewriter", monospace;
+	src: url('FSEX302.ttf') /* Source: https://github.com/kika/fixedsys */
 }
