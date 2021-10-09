@@ -1,7 +1,10 @@
+@font-face {
+	font-family: "Fixedsys Excelsior";
+	src: url(fsex302.ttf); /* Source: https://github.com/kika/fixedsys */
+}
 body {
 	background-color: black;
 	color: green;
 	font-family: "Fixedsys Excelsior", "Lucida Typewriter", monospace;
-	src: url(/fsex302.ttf); /* Source: https://github.com/kika/fixedsys */
 	font-size: 20px;
 }
