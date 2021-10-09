@@ -1,0 +1,28 @@
+﻿mse_version: 2.1.2
+card:
+	has_styling: false
+	notes: Other side of Hazel Careon
+	time_created: 2021-10-09 00:17:29
+	time_modified: 2021-10-09 00:23:15
+	extra_data:
+		magic-m15-future:
+			future_node: creature
+	border_color: rgb(186,202,254)
+	card_color: multicolor
+	name: Spirit of the Hunt
+	image: 
+	super_type: <word-list-type>Legendary Creature</word-list-type>
+	sub_type: <word-list-race>Cat</word-list-race> <word-list-class>Spirit</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule_text:
+		When Spirit of the Hunt Attacks, <kw-A><nospellcheck>Proliferate</nospellcheck>.<soft-line><atom-reminder-action> <i-auto>(Choose any number of permanents and/or players with counters on them, then give each another counter of each kind already there.)</i-auto></atom-reminder-action></kw-A>
+		</soft-line>
+	flavor_text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
