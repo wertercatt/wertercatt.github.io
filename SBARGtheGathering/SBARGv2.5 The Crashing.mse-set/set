@@ -1,0 +1,48 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15-future
+stylesheet_version: 2018-06-01
+set_info:
+	title: SBARGv2.5: The Crashing
+	description: Homebrew Magic the Gathering cards for the SBARGv2.5: Dungeon Crashers community
+	set_code: SBARG
+	set_language: en
+	symbol: 
+	masterpiece_symbol: 
+	automatic_reminder_text: old, core, expert, pseudo, action, custom, lower case
+styling:
+	magic-m15-future:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: Front of Spirit of the Hunt.
+	time_created: 2021-09-09 16:58:06
+	time_modified: 2021-09-09 19:03:58
+	extra_data:
+		magic-m15-future:
+			future_node: creature
+	border_color: rgb(186,202,254)
+	card_color: white, green, multicolor, horizontal
+	name: Hazel Careon
+	casting_cost: 4GW
+	image: image1
+	super_type: <word-list-type>Legendary Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Player</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: special
+	rule_text:
+		When Hazel <error-spelling:en_US:/magic.mse-game/magic-words>Careon</error-spelling:en_US:/magic.mse-game/magic-words> enters the battlefield, all Cats you control get a +1/+1 or Loyalty Counter.
+		<sym>TG</sym>: Transform Hazel <error-spelling:en_US:/magic.mse-game/magic-words>Careon</error-spelling:en_US:/magic.mse-game/magic-words>
+		<kw-A><nospellcheck>Partner</nospellcheck><atom-reminder-expert> <i-auto>(You can have two commanders if both have partner.)</i-auto></atom-reminder-expert></kw-A>
+	flavor_text: <i-flavor>“I want to make a difference, if I can.”</i-flavor>
+	power: 6
+	toughness: 6
+	card_code_text: 
+	illustrator: Cyrus ’ifelse95’ Lopez
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+version_control:
+	type: none
+apprentice_code: 
