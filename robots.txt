@@ -1,1 +1,3 @@
-Robots are cool, just be nice.
+User-agent: *
+Allow: /
+//Robots are cool, just be nice.
