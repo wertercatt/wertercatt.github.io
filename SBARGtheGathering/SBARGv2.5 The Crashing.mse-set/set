@@ -8,15 +8,31 @@ set_info:
 	description: Homebrew Magic the Gathering cards for the SBARGv2.5: Dungeon Crashers community
 	set_code: SBARG
 	set_language: en
-	symbol: 
+	symbol: symbol2.mse-symbol
 	masterpiece_symbol: 
 	automatic_reminder_text: old, core, expert, pseudo, action, custom, lower case
 styling:
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-flip:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
 	magic-m15-future:
 		text_box_mana_symbols: magic-mana-small.mse-symbol-font
 		overlay: 
+	magic-m15-mainframe-dfc:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mined-planeshifted:
+		text_box_mana_symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
 include_file: card hazel careon
-include_file: card spirit of the hunt
 version_control:
 	type: none
 apprentice_code: 
