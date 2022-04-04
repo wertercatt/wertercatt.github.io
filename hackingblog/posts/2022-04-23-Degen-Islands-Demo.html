@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog Post</title> <!-- If you leave title as "Blog Post", it will automatically be updated to the post title -->
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link href="../style/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">...</div>
+        <div id="content">
+            <h1 id="postTitleH1"></h1>
+            <h4 id="postDate"></h4>
+
+            <p>I decided to investigate an in-browser web3 game based on the Solana blockchain to see how something like that is implemented. I chose the game <i>Degen Islands</i> as it was randomly suggested to me on twitter.</p>
+
+            <p>The game isn't live yet, as the NFTs to play have yet to be minted. But <a href="https://demo.degenislands.com">a demo</a> is avaliable for potential investors to play around in, so I focused on that.</p>
+
+            <p>It's nothing special, it's coded in Unity, exported to WebGL, and hosted on an AWS server. The core concept is that you can spend your time hanging out on your island or mining it for a SPL token called $NUGGET which can be found in ore blocks.</p>
+
+            <p>It plays poorly, likely due to being built ontop of an already existing <i>Minecraft</i> unity clone base. The player appears to be 2x2x2 blocks in size, making mining tedious.</p>
+
+            <p>However, I soon found a killer bug in how the game interacts with the Solana blockchain. The demo uses the Solana devnet, so although you get $NUGGETs, they're on the worthless development chain.</p>
+
+            <p>When the player mines some $NUGGET ore, the client sends a post request to the endpoint https://demo-api.degenislands.com/token/transfer.</p>
+
+            <p>When prettified for legibility, the request looks like this: <img src="../images/degenIslandsTransferJSON.svg" /></p>
+
+            <p>...Yeah. There's no verification that you mined an ore block, that you did <b>anything</b> in the game. It just takes an address to give $NUGGETs to and an amount variable.</p>
+
+            <p>You can only get $NUGGETs 10 at a time in normal gameplay, and the endpoint will silently refuse to honor higher amount values. It gives you a response like you got the 1000 $NUGGETs at once you ordered, but the transaction it sends only transfers the normal 10.</p>
+
+            <p>But, you can just hammer the endpoint with the same POST request like nobody's business and get 10 $NUGGET for each and every request.</p>
+
+            <p>With just this code, I got hundreds of $NUGGET delivered straight to my devnet address in seconds. <img src="../images/degenIslandsPushButtonGetToken.svg" /></p>
+
+            <p>Imagine if the code for our actual universe was written by Crypto metaverse developers? 😹</p>
+            <div id="nextprev"></div>
+        </div> <!-- end of div id="content" -->
+        <div id="footer"></div>
+    </div> <!-- end of div id="container" -->
+    <!-- Here's the link to our JavaScript! -->
+    <script src="../script.js"></script>
+</body>
+
+</html>
