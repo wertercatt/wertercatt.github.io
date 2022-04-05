@@ -43,7 +43,7 @@ while i < int(fractalHistory["next"]["token"]):
         if y["traitType"] == leastRareAttribute:
             leastRareAttributeName = y["value"]
     print(mostRareAttributeName + " " + mostRareAttribute + " is the rarest feature of it, appearing in " + makePercentage.format(mostRareAttributeVal) + " of all Cinder NFTs<br>")
-    print(leastRareAttributeName + " " + leastRareAttribute + " is the most common feature of it, appearing in " + makePercentage.format(leastRareAttributeVal) + " of all Cinder NFTs>br>")
+    print(leastRareAttributeName + " " + leastRareAttribute + " is the most common feature of it, appearing in " + makePercentage.format(leastRareAttributeVal) + " of all Cinder NFTs<br>")
     print("The transaction ID is " + fractalHistory["transactions"][i]["transactionId"] + "<br>")
     print(fractalHistory["transactions"][i]["toAddress"] + " paid " + fractalHistory["transactions"][i]["fromAddress"] + " " + str(fractalHistory["transactions"][i]["amount"]) + " SOL<br>")
     print("</p>")
