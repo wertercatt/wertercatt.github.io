@@ -22,7 +22,28 @@ i = 0
 while i < int(fractalHistory["next"]["token"]):
     print("<p>")
     print("There was a " + fractalHistory["transactions"][i]["type"] + " transaction at " + fractalHistory["transactions"][i]["time"] + " on Fractal.is<br>")
-    print("It was for " + fractalHistory["transactions"][i]["token"]["metaplex"]["name"] + " which has the rarity rank of " + str(fractalHistory["transactions"][i]["token"]["rarity"]["rank"]) + " which makes it a " + fractalHistory["transactions"][i]["token"]["rarity"]["type"] + " NFT<br>")
+    print("It was for " + fractalHistory["transactions"][i]["token"]["metaplex"]["name"] + " with the rarity rank of " + str(fractalHistory["transactions"][i]["token"]["rarity"]["rank"]) + "/4444 making it " + fractalHistory["transactions"][i]["token"]["rarity"]["type"] + "<br>")
+    mostRareAttributeVal = 1
+    leastRareAttributeVal = 0
+    mostRareAttribute = ""
+    leastRareAttribute = ""
+    mostRareAttributeName = ""
+    leastRareAttributeName = ""
+    makePercentage = "{:%}"
+    for x in fractalHistory["transactions"][i]["token"]["rarity"]["attributes"]:
+        if x["rarity"] < mostRareAttributeVal:
+            mostRareAttributeVal = x["rarity"]
+            mostRareAttribute = x["name"]
+        if x["rarity"] > leastRareAttributeVal:
+            leastRareAttributeVal = x["rarity"]
+            leastRareAttribute = x["name"]
+    for y in fractalHistory["transactions"][i]["token"]["metaplex"]["attributes"]:
+        if y["traitType"] == mostRareAttribute:
+            mostRareAttributeName = y["value"]
+        if y["traitType"] == leastRareAttribute:
+            leastRareAttributeName = y["value"]
+    print(mostRareAttributeName + " " + mostRareAttribute + " is the rarest feature of it, appearing in " + makePercentage.format(mostRareAttributeVal) + " of all Cinder NFTs<br>")
+    print(leastRareAttributeName + " " + leastRareAttribute + " is the most common feature of it, appearing in " + makePercentage.format(leastRareAttributeVal) + " of all Cinder NFTs>br>")
     print("The transaction ID is " + fractalHistory["transactions"][i]["transactionId"] + "<br>")
     print(fractalHistory["transactions"][i]["toAddress"] + " paid " + fractalHistory["transactions"][i]["fromAddress"] + " " + str(fractalHistory["transactions"][i]["amount"]) + " SOL<br>")
     print("</p>")
