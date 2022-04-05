@@ -5,7 +5,7 @@ import json
 #Fractal.is internal API
 fractalAdminProjectManage = "https://fractal-core-grpc-server-rest-2-tmg6xh47ja-uc.a.run.app/admin/v1/project/manage/5679095853613056/collection/manage"
 fractalAdminProjectHandle = "https://fractal-core-grpc-server-rest-2-tmg6xh47ja-uc.a.run.app/admin/v1/project/handle/cinder"
-fractalAdminHistory = "https://fractal-core-grpc-server-rest-2-tmg6xh47ja-uc.a.run.app/admin/v1/history?limit=10&projectId=5679095853613056"
+fractalAdminHistory = "https://fractal-core-grpc-server-rest-2-tmg6xh47ja-uc.a.run.app/admin/v1/history?limit=1176&projectId=5679095853613056"
 fractalAdminProjectHandleCinderTokenManage = "https://fractal-core-grpc-server-rest-2-tmg6xh47ja-uc.a.run.app/admin/v1/project/handle/cinder/token/manage/FvbByV9xZmiCEityxoypKfq3tgTe5ZmnQLVf5uGB95bT/history?cursor=&limit=10"
 
 #CoinGecko Public API https://www.coingecko.com/en/api/documentation
