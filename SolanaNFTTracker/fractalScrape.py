@@ -99,5 +99,5 @@ while i2 < 151:
         lowestTransactionId = fractalHistory2["transactions"][i2]["transactionId"]
     i2 = i2 + 1
 print("<p>")
-print("The highest amount paid for a Fae is " + highestTransactionId + " SOL in Transaction " + highestTransactionId + "<br>")
-print("The lowest amount paid for a Fae is " + lowestTransactionId + " SOL in Transaction " + lowestTransactionId + "<br>")
+print("The highest amount paid for a Fae is " + str(highestTransactionVal) + " SOL in Transaction " + highestTransactionId + "<br>")
+print("The lowest amount paid for a Fae is " + str(lowestTransactionVal) + " SOL in Transaction " + lowestTransactionId + "<br>")
