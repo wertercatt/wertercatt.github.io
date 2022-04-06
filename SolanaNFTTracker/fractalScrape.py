@@ -13,9 +13,6 @@ fractalAdminProjectHandleCinderTokenManage = "https://fractal-core-grpc-server-r
 #CoinGecko Public API https://www.coingecko.com/en/api/documentation
 coinGeckoCoinsSolanaMarketChartRange = "https://api.coingecko.com/api/v3/coins/solana/market_chart/range?vs_currency=usd&from=1647711974&to=1647798374"
 
-#Solscan Public API https://public-api.solscan.io/docs/
-solscanAccountTransactions = "https://public-api.solscan.io/account/transactions?account=C1NDRXpVKLPksQsjSv5ocPUTjFupBuW4JzGQGRMhaivP&limit=50"
-
 fractalHistoryRaw = requests.get(fractalAdminHistory)
 fractalHistory = json.loads(fractalHistoryRaw.text)
 #print(json.dumps(fractalHistory["transactions"], sort_keys=True, indent=4))
