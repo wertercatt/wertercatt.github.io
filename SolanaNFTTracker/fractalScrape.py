@@ -28,7 +28,7 @@ lowestTransactionId = ""
 i = 0
 i2 = 0
 #print(fractalHistory["next"]["token"])
-while i < 1176:
+while i < len(fractalHistory["transactions"]):
     print("<p>")
     print("There was a " + fractalHistory["transactions"][i]["type"] + " transaction at " + fractalHistory["transactions"][i]["time"] + " on Fractal.is<br>")
     print("It was for " + fractalHistory["transactions"][i]["token"]["metaplex"]["name"] + " with the rarity rank of " + str(fractalHistory["transactions"][i]["token"]["rarity"]["rank"]) + "/4444 making it " + fractalHistory["transactions"][i]["token"]["rarity"]["type"] + "<br>")
@@ -63,7 +63,7 @@ while i < 1176:
     print(fractalHistory["transactions"][i]["toAddress"] + " paid " + fractalHistory["transactions"][i]["fromAddress"] + " " + str(fractalHistory["transactions"][i]["amount"]) + " SOL<br>")
     print("</p>")
     i = i + 1
-while i2 < 151:
+while i2 < len(fractalHistory2["transactions"]):
     print("<p>")
     print("There was a " + fractalHistory2["transactions"][i2]["type"] + " transaction at " + fractalHistory2["transactions"][i2]["time"] + " on Fractal.is<br>")
     print("It was for " + fractalHistory2["transactions"][i2]["token"]["metaplex"]["name"] + " with the rarity rank of " + str(fractalHistory2["transactions"][i2]["token"]["rarity"]["rank"]) + "/4444 making it " + fractalHistory2["transactions"][i2]["token"]["rarity"]["type"] + "<br>")
